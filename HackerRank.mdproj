@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{C65E42EB-9562-48C5-9449-4F2C6210E8AA}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="001_solve-me-first\" />
+    <Folder Include="002_lonely-integer\" />
+    <Folder Include="003_solve-me-second\" />
+    <Folder Include="004_flipping-bits\" />
+    <Folder Include="005_utopian-tree\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="001_solve-me-first\in.txt" />
+    <None Include="001_solve-me-first\main.cs" />
+    <None Include="001_solve-me-first\main.exe" />
+    <None Include="001_solve-me-first\out.txt" />
+    <None Include="001_solve-me-first\solve.txt" />
+    <None Include="002_lonely-integer\main.cs" />
+    <None Include="002_lonely-integer\in.txt" />
+    <None Include="003_solve-me-second\main.cs" />
+    <None Include="004_flipping-bits\main.cs" />
+    <None Include="004_flipping-bits\in.txt" />
+    <None Include="004_flipping-bits\out.txt" />
+    <None Include="005_utopian-tree\main.cs" />
+    <None Include="005_utopian-tree\in.txt" />
+  </ItemGroup>
+</Project>
